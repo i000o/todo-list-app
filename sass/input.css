@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 a:link {
   color: inherit; /* no blue default link color */
   text-decoration: none;
@@ -22,4 +23,29 @@ footer {
   justify-content: center;
   align-items: center;
   font-size: 0.6em;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "josefin sans", sans-serif;
+  font-size: 1em;
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(235, 19%, 35%);
+}
+
+.todo {
+  text-transform: uppercase;
+  color: hsl(0, 0%, 98%);
+  order: -1;
+}
+
+header {
+  background-image: url(../images/bg-mobile-light.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }/*# sourceMappingURL=input.css.map */
