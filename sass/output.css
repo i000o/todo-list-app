@@ -1,0 +1,27 @@
+a:link {
+  color: inherit; /* no blue default link color */
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit; /* no purple visited links */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.6em;
+}
+
+/*# sourceMappingURL=output.css.map */
